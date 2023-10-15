@@ -31,9 +31,5 @@
 .video-item {
   max-width: 100%; /* Make videos responsive */
   height: auto; /* Maintain aspect ratio */
-
-  /* Set the videos to a fixed width relative to entry-content, e.g., 80% */
   width: 100%;
-  /* Center the videos horizontally within the entry-content */
-  margin: 0 auto;
 }
