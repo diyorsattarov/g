@@ -5,6 +5,7 @@ import "./Timeline.css";
 import video1 from "./../../media/videos/oct7/video1.mp4";
 import video2 from "./../../media/videos/oct7/video2.mp4";
 import video3 from "./../../media/videos/oct15/video1.mp4";
+import video4 from "./../../media/videos/oct15/video2.mp4";
 import image1 from "./../../media/images/oct7/image1.png"
 
 export default function DefaultTimeline({ darkMode }) {
@@ -191,6 +192,13 @@ export default function DefaultTimeline({ darkMode }) {
 									</video>
 								</p>
                 <p>The IDF mistakenly kills a settler in Ofakim, near the Gaza Strip; After they thought he was a Palestinian fighter</p>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+									<video class="w-full" controls>
+										<source src={video4} type="video/mp4" />
+										Your browser does not support the video tag.
+									</video>
+								</p>
+                <p>The extent of the destruction in Gaza.</p>
                 </div>
 						</Timeline.Body>
 						<Button color="gray">
