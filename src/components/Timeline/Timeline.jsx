@@ -7,6 +7,7 @@ import video2 from "./../../media/videos/oct7/video2.mp4";
 import video3 from "./../../media/videos/oct15/video1.mp4";
 import video4 from "./../../media/videos/oct15/video2.mp4";
 import image1 from "./../../media/images/oct7/image1.png";
+import image2 from "./../../media/images/oct15/image1.jpg";
 
 export default function DefaultTimeline({ darkMode }) {
 	return (
@@ -18,7 +19,10 @@ export default function DefaultTimeline({ darkMode }) {
 						<Timeline.Time>October 16, 2023</Timeline.Time>
 						<Timeline.Title>Gaza Genocide Day 10</Timeline.Title>
 						<Timeline.Body>
-							<p>Content body</p>
+            <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <img class="rounded-t-lg" src={image2} alt="" />
+							<p>A 5-Hour Ceasefire Will Begin At 9AM. This will allow foreigners to exit and aid to come in through the Rafah crossing.</p>
+              </div>
 						</Timeline.Body>
 						<Button color="gray">
 							<p>Learn More</p>
