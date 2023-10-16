@@ -12,6 +12,7 @@ import video6 from "./../../media/videos/oct16/video2.mp4";
 
 import image1 from "./../../media/images/oct7/image1.png";
 import image2 from "./../../media/images/oct15/image1.jpg";
+import image3 from "./../../media/images/oct15/image2.jpg";
 
 export default function DefaultTimeline({ darkMode }) {
 	return (
@@ -49,6 +50,8 @@ export default function DefaultTimeline({ darkMode }) {
 						<Timeline.Title>Gaza Genocide Day 9</Timeline.Title>
 						<Timeline.Body>
 							<div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <img class="rounded-t-lg" src={image3} alt="" />
+                <p>Muslim boy and mother are stabbed by Illinois man expressing anti-Muslim and anti-Palestinian views.</p>
 								<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
                   <video class="w-full" controls>
 										<source src={video5} type="video/mp4" />
