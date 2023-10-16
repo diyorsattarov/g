@@ -6,6 +6,8 @@ import video1 from "./../../media/videos/oct7/video1.mp4";
 import video2 from "./../../media/videos/oct7/video2.mp4";
 import video3 from "./../../media/videos/oct15/video1.mp4";
 import video4 from "./../../media/videos/oct15/video2.mp4";
+import video5 from "./../../media/videos/oct16/video1.mp4";
+
 import image1 from "./../../media/images/oct7/image1.png";
 import image2 from "./../../media/images/oct15/image1.jpg";
 
@@ -39,6 +41,13 @@ export default function DefaultTimeline({ darkMode }) {
 						<Timeline.Body>
 							<div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
 								<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  <video class="w-full" controls>
+										<source src={video5} type="video/mp4" />
+										Your browser does not support the video tag.
+									</video>
+                  <p>
+                    Mass graves in Gaza due to IOF Israeli Bombardment
+                  </p>
 									<video class="w-full" controls>
 										<source src={video3} type="video/mp4" />
 										Your browser does not support the video tag.
@@ -192,7 +201,6 @@ export default function DefaultTimeline({ darkMode }) {
                 
               <img class="rounded-t-lg" src={image1} alt="" />
                 <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                    04:40 GMT – Dawn infiltration
                     <blockquote class="p-4 my-4 border-l-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800">
                       <p class="text-xl italic font-medium leading-relaxed text-gray-900 dark:text-white">
                         The rocket attack served as cover for an unprecedented
@@ -201,6 +209,7 @@ export default function DefaultTimeline({ darkMode }) {
                         fighters had crossed into Israel.
                       </p>
                     </blockquote>
+                    04:40 GMT – Dawn infiltration
                   </p>
 								<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
 									<blockquote class="p-4 my-4 border-l-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800">
@@ -216,8 +225,8 @@ export default function DefaultTimeline({ darkMode }) {
 											Mohammed Deif, head of the Qassam Brigades, the military
 											wing of Hamas, said.{" "}
 										</p>
-                    03:30 GMT – Covering rocket fire
 									</blockquote>
+                  03:30 GMT – Covering rocket fire
                   <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
 										Why the Palestinian group Hamas launched an attack on
 										Israel? All to know
