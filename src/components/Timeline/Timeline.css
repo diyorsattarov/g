@@ -1,35 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Timeline.css */
+.timeline-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* You can also add other styles as needed */
+  }
+  
 
-.chronological-timeline {
-  text-align: center;
-  color: white;
-}
-
-.timeline-entry {
-  border: 1px solid #ccc; /* Thin border around each entry */
-  padding: 20px;
-  margin: 10px auto; /* Center the timeline entries horizontally */
-  background-color: #2c3640; /* Background color for the entries */
-  max-width: 95%; /* Adjust the maximum width to your liking */
-}
-
-.entry-date {
-  font-weight: bold;
-}
-
-.entry-content {
-  color: white; /* Set text color to white */
-}
-
-.video-container {
-  display: flex;
-  align-items: center;
-  justify-content: center; /* Center videos horizontally */
-  flex-wrap: wrap; /* Wrap videos to the next line on smaller screens */
-}
-
-.video-item {
-  max-width: 100%; /* Make videos responsive */
-  height: auto; /* Maintain aspect ratio */
-  width: 100%;
+.mb-10 {
+    margin-bottom: 0px;
 }

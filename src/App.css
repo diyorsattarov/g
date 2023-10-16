@@ -1,8 +1,6 @@
 /* App.css */
-
-/* Set the background color to a "dim" color */
-body {
-  background-color: #15202b; /* You can adjust the color code to match your preference */
+.dark {
+    /* Dark mode styles for the entire app */
+    background-color: #15202b;
+    color: #ffffff;
 }
-
-/* Add any additional styling you need for your app */
