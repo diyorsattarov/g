@@ -202,10 +202,16 @@ export default function DefaultTimeline({ darkMode }) {
 										<source src={video2} type="video/mp4" />
 										Your browser does not support the video tag.
 									</video>
+                  <p>
+                    Video description
+                  </p>
                   <video class="w-full" controls>
 										<source src={video1} type="video/mp4" />
 										Your browser does not support the video tag.
-									</video>
+                  </video>
+                  <p>
+                    Video description
+                  </p>
 								</p>
                 
               <img class="rounded-t-lg" src={image1} alt="" />
