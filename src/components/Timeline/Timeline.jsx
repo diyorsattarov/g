@@ -8,6 +8,7 @@ import video3 from "./../../media/videos/oct15/video1.mp4";
 import video4 from "./../../media/videos/oct15/video2.mp4";
 import video5 from "./../../media/videos/oct16/video1.mp4";
 import video6 from "./../../media/videos/oct16/video2.mp4";
+import video7 from "./../../media/videos/oct15/video3.mp4";
 
 
 import image1 from "./../../media/images/oct7/image1.png";
@@ -76,6 +77,13 @@ export default function DefaultTimeline({ darkMode }) {
 									</video>
 								</p>
 								<p>The extent of the destruction in Gaza.</p>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+									<video class="w-full" controls>
+										<source src={video7} type="video/mp4" />
+										Your browser does not support the video tag.
+									</video>
+								</p>
+								<p>Proof of Israeli propaganda, and the desire for genocide against Palestinians</p>
 							</div>
 						</Timeline.Body>
 						<Button color="gray">
