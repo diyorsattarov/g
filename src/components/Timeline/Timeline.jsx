@@ -3,6 +3,8 @@ import { Button, Timeline } from "flowbite-react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import "./Timeline.css";
 import video1 from "./../../media/videos/oct7/video1.mp4";
+import video2 from "./../../media/videos/oct7/video2.mp4";
+import video3 from "./../../media/videos/oct15/video1.mp4";
 import image1 from "./../../media/images/oct7/image1.png"
 
 export default function DefaultTimeline({ darkMode }) {
@@ -51,6 +53,13 @@ export default function DefaultTimeline({ darkMode }) {
                 <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
 									<video class="w-full" controls>
 										<source src={video1} type="video/mp4" />
+										Your browser does not support the video tag.
+									</video>
+								</p>
+                <th />
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+									<video class="w-full" controls>
+										<source src={video2} type="video/mp4" />
 										Your browser does not support the video tag.
 									</video>
 								</p>
@@ -174,7 +183,15 @@ export default function DefaultTimeline({ darkMode }) {
 						<Timeline.Time>October 15, 2023</Timeline.Time>
 						<Timeline.Title>Gaza Genocide Day 9</Timeline.Title>
 						<Timeline.Body>
-							<p>Content body</p>
+            <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+									<video class="w-full" controls>
+										<source src={video3} type="video/mp4" />
+										Your browser does not support the video tag.
+									</video>
+								</p>
+                <p>The IDF mistakenly kills a settler in Ofakim, near the Gaza Strip; After they thought he was a Palestinian fighter</p>
+                </div>
 						</Timeline.Body>
 						<Button color="gray">
 							<p>Learn More</p>
