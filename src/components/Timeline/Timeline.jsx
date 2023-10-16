@@ -7,6 +7,8 @@ import video2 from "./../../media/videos/oct7/video2.mp4";
 import video3 from "./../../media/videos/oct15/video1.mp4";
 import video4 from "./../../media/videos/oct15/video2.mp4";
 import video5 from "./../../media/videos/oct16/video1.mp4";
+import video6 from "./../../media/videos/oct16/video2.mp4";
+
 
 import image1 from "./../../media/images/oct7/image1.png";
 import image2 from "./../../media/images/oct15/image1.jpg";
@@ -22,6 +24,13 @@ export default function DefaultTimeline({ darkMode }) {
 						<Timeline.Title>Gaza Genocide Day 10</Timeline.Title>
 						<Timeline.Body>
             <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+									<video class="w-full" controls>
+										<source src={video6} type="video/mp4" />
+										Your browser does not support the video tag.
+									</video>
+								</p>
+            <p>Voice message from Gaza hospital, They have run out of water and electricity, EVERYONE IS GOING TO DIE!</p>
             <img class="rounded-t-lg" src={image2} alt="" />
 							<p>A 5-Hour Ceasefire Will Begin At 9AM. This will allow foreigners to exit and aid to come in through the Rafah crossing.</p>
               </div>
